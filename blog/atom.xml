@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://x0s3.github.io/blog</id>
+    <title>Katachi Blog</title>
+    <updated>2021-02-27T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://x0s3.github.io/blog"/>
+    <subtitle>Katachi Blog</subtitle>
+    <icon>https://x0s3.github.io/https://react-pdf.org/images/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[New autogen forms library is out! 🧙🏼‍♂️]]></title>
+        <id>katachi</id>
+        <link href="https://x0s3.github.io/katachi/blog/katachi"/>
+        <updated>2021-02-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog]]></summary>
+    </entry>
+</feed>
