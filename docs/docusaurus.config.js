@@ -5,15 +5,15 @@ module.exports = {
   baseUrl: '/katachi/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://react-pdf.org/images/logo.png',
-  organizationName: 'x0s3', // Usually your GitHub org/user name.
-  projectName: 'katachi', // Usually your repo name.
+  favicon: 'img/logo.svg',
+  organizationName: 'x0s3',
+  projectName: 'katachi',
   themeConfig: {
     navbar: {
       title: 'Katachi',
       logo: {
         alt: 'Katachi Logo',
-        src: 'https://react-pdf.org/images/logo.png',
+        src: 'img/logo.svg',
       },
       items: [
         {
@@ -24,7 +24,7 @@ module.exports = {
         },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/x0s3/katachi',
           label: 'GitHub',
           position: 'right',
         },
@@ -47,15 +47,6 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Slack',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-          ],
-        },
-        {
           title: 'More',
           items: [
             {
@@ -64,7 +55,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/x0s3/katachi',
             },
           ],
         },
@@ -78,15 +69,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/x0s3/katachi/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/x0s3/katachi/edit/main/docs/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

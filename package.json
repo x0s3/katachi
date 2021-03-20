@@ -15,7 +15,8 @@
   "keywords": [
     "typescript",
     "forms",
-    "react"
+    "react",
+    "react-hook-form"
   ],
   "engines": {
     "node": ">=12"
@@ -63,7 +64,6 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-hook-form": "^6.15.5",
-    "react-query": "^3.13.0",
     "react-test-renderer": "^17.0.1",
     "ts-jest": "^26.5.4",
     "typescript": "^4.2.3"

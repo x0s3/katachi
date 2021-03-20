@@ -30,12 +30,12 @@ const features = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by React & React-Hook-Form',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
         Extend or customize your form by reusing React. {LIBRARY_NAME} can be
-        extended while reusing the same header and footer.
+        extended while reusing the same schema.
       </>
     ),
   },
@@ -61,7 +61,7 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
