@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{75:function(a){a.exports=JSON.parse('{"allTagsPath":"/katachi/blog/tags","slug":"autogen","name":"autogen","count":1,"permalink":"/katachi/blog/tags/autogen"}')}}]);

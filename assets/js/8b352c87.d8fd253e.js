@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{88:function(a){a.exports=JSON.parse('{"allTagsPath":"/katachi/blog/tags","slug":"pdf","name":"pdf","count":1,"permalink":"/katachi/blog/tags/pdf"}')}}]);
